@@ -1,6 +1,6 @@
 import sqlite3
 
-DB_NAME = "../mapping.db"
+DB_NAME = "../data/mapping.db"
 
 def init_db():
     conn = sqlite3.connect(DB_NAME)
